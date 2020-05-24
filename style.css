@@ -1,0 +1,76 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  
+  main {
+    width: 850px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    background-image: url("space.jpg");
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 75px;
+  }
+  
+  .cards {
+    background-color: #E6E6E6;
+    height: 324px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cards-section {
+    width: 270px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  
+  .cards-section ul {
+    list-style: none;
+    padding: 0px;
+  }
+  
+  .card-header {
+    font-size: 20px;
+  }
+  
+  .card-header-caps {
+    text-transform: uppercase;
+  }
+  
+  .cards-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cards-section input {
+    width: 230px;
+    margin-bottom: 10px;
+  }
+  
+  .cards-section textarea {
+    height: 100px;
+    width: 230px;
+    resize: none;
+  }
+  
+  #button {
+    background-color: #4D4D4D;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px 0px;
+    margin: 10px 0;
+    letter-spacing: .1em;
+    width: 75px;
+    cursor: pointer;
+  }
